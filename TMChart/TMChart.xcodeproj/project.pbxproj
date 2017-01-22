@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B77487B51E321C7C0063F8D7 /* TMBaseDrawManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B77487B41E321C7C0063F8D7 /* TMBaseDrawManager.m */; };
+		B77487BB1E321CF20063F8D7 /* TMDrawLineManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B77487BA1E321CF20063F8D7 /* TMDrawLineManager.m */; };
 		B7E64E8C1E2F102D00D7F718 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E64E8B1E2F102D00D7F718 /* main.m */; };
 		B7E64E8F1E2F102D00D7F718 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E64E8E1E2F102D00D7F718 /* AppDelegate.m */; };
 		B7E64E921E2F102D00D7F718 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E64E911E2F102D00D7F718 /* ViewController.m */; };
@@ -15,6 +17,9 @@
 		B7E64E9A1E2F102D00D7F718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E64E981E2F102D00D7F718 /* LaunchScreen.storyboard */; };
 		B7E64EA51E2F102D00D7F718 /* TMChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E64EA41E2F102D00D7F718 /* TMChartTests.m */; };
 		B7E64EB01E2F102D00D7F718 /* TMChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E64EAF1E2F102D00D7F718 /* TMChartUITests.m */; };
+		B7E64EC01E2F121800D7F718 /* TMBaseChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E64EBF1E2F121800D7F718 /* TMBaseChartView.m */; };
+		B7E64EC31E2F123700D7F718 /* TMLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E64EC21E2F123700D7F718 /* TMLineChart.m */; };
+		B7E64EC61E2F785A00D7F718 /* TMLineChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E64EC51E2F785A00D7F718 /* TMLineChartModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B77487B31E321C7C0063F8D7 /* TMBaseDrawManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMBaseDrawManager.h; sourceTree = "<group>"; };
+		B77487B41E321C7C0063F8D7 /* TMBaseDrawManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMBaseDrawManager.m; sourceTree = "<group>"; };
+		B77487B91E321CF20063F8D7 /* TMDrawLineManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDrawLineManager.h; sourceTree = "<group>"; };
+		B77487BA1E321CF20063F8D7 /* TMDrawLineManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDrawLineManager.m; sourceTree = "<group>"; };
 		B7E64E871E2F102D00D7F718 /* TMChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E64E8B1E2F102D00D7F718 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B7E64E8D1E2F102D00D7F718 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,12 @@
 		B7E64EAB1E2F102D00D7F718 /* TMChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E64EAF1E2F102D00D7F718 /* TMChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMChartUITests.m; sourceTree = "<group>"; };
 		B7E64EB11E2F102D00D7F718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E64EBE1E2F121800D7F718 /* TMBaseChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMBaseChartView.h; sourceTree = "<group>"; };
+		B7E64EBF1E2F121800D7F718 /* TMBaseChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMBaseChartView.m; sourceTree = "<group>"; };
+		B7E64EC11E2F123700D7F718 /* TMLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMLineChart.h; sourceTree = "<group>"; };
+		B7E64EC21E2F123700D7F718 /* TMLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMLineChart.m; sourceTree = "<group>"; };
+		B7E64EC41E2F785A00D7F718 /* TMLineChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMLineChartModel.h; sourceTree = "<group>"; };
+		B7E64EC51E2F785A00D7F718 /* TMLineChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMLineChartModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,7 @@
 		B7E64E891E2F102D00D7F718 /* TMChart */ = {
 			isa = PBXGroup;
 			children = (
+				B7E64EBD1E2F11F900D7F718 /* TMChart */,
 				B7E64E8D1E2F102D00D7F718 /* AppDelegate.h */,
 				B7E64E8E1E2F102D00D7F718 /* AppDelegate.m */,
 				B7E64E901E2F102D00D7F718 /* ViewController.h */,
@@ -138,6 +154,23 @@
 				B7E64EB11E2F102D00D7F718 /* Info.plist */,
 			);
 			path = TMChartUITests;
+			sourceTree = "<group>";
+		};
+		B7E64EBD1E2F11F900D7F718 /* TMChart */ = {
+			isa = PBXGroup;
+			children = (
+				B7E64EBE1E2F121800D7F718 /* TMBaseChartView.h */,
+				B7E64EBF1E2F121800D7F718 /* TMBaseChartView.m */,
+				B7E64EC11E2F123700D7F718 /* TMLineChart.h */,
+				B7E64EC21E2F123700D7F718 /* TMLineChart.m */,
+				B7E64EC41E2F785A00D7F718 /* TMLineChartModel.h */,
+				B7E64EC51E2F785A00D7F718 /* TMLineChartModel.m */,
+				B77487B31E321C7C0063F8D7 /* TMBaseDrawManager.h */,
+				B77487B41E321C7C0063F8D7 /* TMBaseDrawManager.m */,
+				B77487B91E321CF20063F8D7 /* TMDrawLineManager.h */,
+				B77487BA1E321CF20063F8D7 /* TMDrawLineManager.m */,
+			);
+			path = TMChart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +306,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7E64EC31E2F123700D7F718 /* TMLineChart.m in Sources */,
 				B7E64E921E2F102D00D7F718 /* ViewController.m in Sources */,
+				B7E64EC01E2F121800D7F718 /* TMBaseChartView.m in Sources */,
+				B77487B51E321C7C0063F8D7 /* TMBaseDrawManager.m in Sources */,
+				B77487BB1E321CF20063F8D7 /* TMDrawLineManager.m in Sources */,
+				B7E64EC61E2F785A00D7F718 /* TMLineChartModel.m in Sources */,
 				B7E64E8F1E2F102D00D7F718 /* AppDelegate.m in Sources */,
 				B7E64E8C1E2F102D00D7F718 /* main.m in Sources */,
 			);
@@ -507,6 +545,7 @@
 				B7E64EB61E2F102D00D7F718 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7E64EB71E2F102D00D7F718 /* Build configuration list for PBXNativeTarget "TMChartTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +554,7 @@
 				B7E64EB91E2F102D00D7F718 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7E64EBA1E2F102D00D7F718 /* Build configuration list for PBXNativeTarget "TMChartUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +563,7 @@
 				B7E64EBC1E2F102D00D7F718 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
